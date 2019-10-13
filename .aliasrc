@@ -1,0 +1,5 @@
+# User specific aliases and functions for all shells
+
+## Linux Alias
+alias c='clear'
+alias cl='clear'

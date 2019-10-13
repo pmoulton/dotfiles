@@ -1,0 +1,4 @@
+for f in ~/dotfiles/.aliasrc ~/dotfiles/.termrc ~/dotfiles/.hgaliasrc
+do
+	source $f
+done

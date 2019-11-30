@@ -1,0 +1,12 @@
+## Git alias
+alias ga='git add .'
+alias gbr='git checkout -b'
+alias gca='git commit --amend'
+alias gcm='git commit'
+alias gco='git checkout'
+alias gd='git diff'
+alias gds='git diff --staged'
+alias gs='git status'
+alias gsh='git show'
+alias gsl='git-sl.py'
+alias grst='git add -A && git commit -qm "WIPE SAVEPOINT" && git reset HEAD~1 --hard'

@@ -9,3 +9,7 @@ alias cl='clear'
 
 # Remap control to escape
 xcape -e 'Control_L=Escape'
+
+# Remap shifts to parentheses on tap
+xcape -e 'Shift_L=parenleft'
+xcape -e 'Shift_R=parenright'

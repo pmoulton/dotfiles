@@ -1,5 +1,5 @@
 ## HG Alias
-alias ap='arc pull'
+alias ap='hg sync'
 alias hga='hg amend'
 alias hgb='hg book'
 alias hgc='hg commit'
@@ -7,14 +7,13 @@ alias hgca='hg commit --amend'
 alias hgd='hg diff'
 alias hgn='hg next'
 alias hgp='hg prev'
-alias hgsh='hg show'
+alias hgsh='hg log -pvr .'
 alias hgss='hg show --stat'
 alias hgst='hg status'
-alias hgrba="arc pull && hg rebase -s '(::bookmark() and draft()) - master::' -d master"
 alias hgrbd='hg rebase -s . -d'
 alias hgrbm='hg rebase -d master'
 alias hgrbs='hg rebase -d . -s'
 alias hgrbc='hg rebase --continue'
 alias hgrst='hg reset . --clean'
-alias hgs="hg sl"
-alias jfsb='jf submit --no-publish'
+alias hgs="hg xl"
+alias hglg="hg ll"

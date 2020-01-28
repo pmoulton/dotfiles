@@ -7,13 +7,15 @@ alias hgca='hg commit --amend'
 alias hgd='hg diff'
 alias hgn='hg next'
 alias hgp='hg prev'
-alias hgsh='hg log -pvr .'
-alias hgss='hg show --stat'
-alias hgst='hg status'
 alias hgrbd='hg rebase -s . -d'
 alias hgrbm='hg rebase -d master'
 alias hgrbs='hg rebase -d . -s'
 alias hgrbc='hg rebase --continue'
-alias hgrst='hg reset . --clean'
+alias hgrst='hg update . --clean'
 alias hgs="hg xl"
 alias hglg="hg ll"
+
+# Information for single commit
+alias hgss='hg log -r . --stat'
+alias hgsh='hg log -pr .'
+alias hgst='hg status'

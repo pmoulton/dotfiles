@@ -1,5 +1,11 @@
 # User specific aliases and functions for all shells
 
+# Set vi mode
+set -o vi
+
 ## Linux Alias
 alias c='clear'
 alias cl='clear'
+
+# Remap control to escape
+xcape -e 'Control_L=Escape'

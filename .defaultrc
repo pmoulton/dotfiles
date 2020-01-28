@@ -1,4 +1,4 @@
-for f in ~/dotfiles/.aliasrc ~/dotfiles/.termrc ~/dotfiles/.hgaliasrc ~/dotfiles/.gitaliasrc
+for f in ~/dotfiles/.aliasrc ~/dotfiles/.hgaliasrc ~/dotfiles/.gitaliasrc
 do
 	source $f
 done

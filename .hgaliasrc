@@ -1,5 +1,4 @@
 ## HG Alias
-alias ap='hg sync'
 alias hga='hg amend'
 alias hgb='hg book'
 alias hgc='hg commit'
@@ -19,3 +18,7 @@ alias hglg="hg ll"
 alias hgss='hg log -r . --stat'
 alias hgsh='hg log -pr .'
 alias hgst='hg status'
+
+# Upstream
+alias ap='hg sync'
+alias jfsb='hg uploadchain'
